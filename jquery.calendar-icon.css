@@ -1,0 +1,48 @@
+.calendar-icon-container {
+  /* Reset all relevant styles */
+  position: relative;
+  display: block;
+  width: 64px;
+  height: 64px;
+  background: transparent url('jquery.calendar-icon.png') no-repeat;
+  color: #eee;
+  font-family: Arial, Helvetica, Sans, "Liberation Sans", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.calendar-icon-top {
+  display: block;
+  position: absolute;
+  top: 1px;
+}
+
+.calendar-icon-month {
+  left: 6px;
+}
+
+.calendar-icon-year {
+  right: 10px;
+  text-align: right;
+}
+
+.calendar-icon-date,
+.calendar-icon-day {
+  display: block;
+  color: #555;
+  position: absolute;
+  text-align: center;
+}
+
+.calendar-icon-date {
+  font-size: 24px;
+  top: 18px;
+  left: 16px;
+}
+
+.calendar-icon-day {
+  top: 42px;
+  left: 17px;
+}
+
+
